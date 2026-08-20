@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">HI i am,Nehashree</h1>
+    <button id="btn">Change color</button>
+    <button id="b2">reverse color</button>
+    <button  onclick="changeText()">click me</button>
+
+    <script>
+        let title=document.getElementById("title");
+        let button =document.getElementById("btn");
+        let but2=document.getElementById("b2");
+        button.addEventListener('click',()=>{title.style.color="red"
+        });
+        but2.addEventListener('click',()=>{title.style.color="black"});
+        function changeText()
+        {
+            document.getElementById("title").
+            innerText="changed using script";
+        }
+    </script>
+
+</body>
+</html>

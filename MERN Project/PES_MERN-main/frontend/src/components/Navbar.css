@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 20px;
+    padding: 15px 30px;
+
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 35px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+}
