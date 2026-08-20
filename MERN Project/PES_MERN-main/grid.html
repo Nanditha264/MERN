@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-rows:100px 100px 100px;
+            grid-template-columns: 100px 100px 100px;
+            gap:5px;
+        }
+        .item
+        {
+            border:2px solid purple;
+            text-align: center;
+            font-style: italic;
+            
+            
+        }
+        .a 
+        {
+            grid-row-start: 1;
+            grid-row-end:3;
+            
+        }
+        .b
+        {
+            grid-column-start: 2 ;
+            grid-column-end:3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <div class="item a">S</div>
+        <div class="item b">H</div>
+        <div class="item">A</div>
+        <div class="item">N</div>
+        <div class="item">W</div>
+        <div class="item">I</div>
+        <div class="item">B</div>
+        <div class="item">M</div>
+    </div>
+</body>
+</html>
